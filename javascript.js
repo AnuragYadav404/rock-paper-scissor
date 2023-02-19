@@ -38,26 +38,26 @@ function game() {
     let userScore = 0;
     let computerScore = 0;
     for(let i = 0; i<5; i++) {
-        let playerSelection = prompt("Enter your choice : Rock, Paper or Scissor?", "ROCK");
-        let computerSelection = getComputerChoice();
-        let result = roundPlay(playerSelection, computerSelection);
-        if(result == 1){
-            console.log("user wins the round : ",i)
-            userScore++;
-        }else if(result == -1) {
-            console.log("computer wins the round : ",i)
-            computerScore++;
-        }else { 
-            console.log("round : ", i, " is a draw");
-        }
+        // let playerSelection = prompt("Enter your choice : Rock, Paper or Scissor?", "ROCK");
+        // let computerSelection = getComputerChoice();
+        // let result = roundPlay(playerSelection, computerSelection);
+        // if(result == 1){
+        //     console.log("user wins the round : ",i)
+        //     userScore++;
+        // }else if(result == -1) {
+        //     console.log("computer wins the round : ",i)
+        //     computerScore++;
+        // }else { 
+        //     console.log("round : ", i, " is a draw");
+        // }
     }
-    if(userScore > computerScore) {
-        console.log("User is the winner, with score : ",userScore);
-    }else if(computerScore > userScore) {
-        console.log("Computer is the winner, with score : ", computerScore);
-    }else { 
-        console.log("Its a draw");
-    }
+    // if(userScore > computerScore) {
+    //     console.log("User is the winner, with score : ",userScore);
+    // }else if(computerScore > userScore) {
+    //     console.log("Computer is the winner, with score : ", computerScore);
+    // }else { 
+    //     console.log("Its a draw");
+    // }
 }
 
 // const playerSelection = "ROCK";
