@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./javascript.js"></script>
+    <script src="./javascript.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Rock, paper or scissor?</title>
 </head>
@@ -15,9 +15,22 @@
     <div class="container">
         <div class="choices">
             <div class="btns">
-                <button class="btn">Rock!</button>
-                <button class="btn">Paper!</button>
-                <button class="btn">Scissor!</button>
+                <button class="ROCK">Rock!</button>
+                <button class="PAPER">Paper!</button>
+                <button class="SCISSOR">Scissor!</button>
+            </div>
+        </div>
+        <div class="display">
+            <div class="disp">SCORE</div>
+            <div class="area">
+                <div class="PlayerScoreContainer">
+                    <div class="PlayerScoreLabel">Player Score : </div>
+                    <div class="score playerScore">0</div>
+                </div>
+                <div class="ComputerScoreContainer">
+                    <div class="ComputerScoreLabel">Computer Score : </div>
+                    <div class="score computerScore">0</div>
+                </div>
             </div>
         </div>
     </div>

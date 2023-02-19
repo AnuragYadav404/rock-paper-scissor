@@ -1,0 +1,46 @@
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.btns{
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-grow: 1;
+}
+
+.disp{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.area{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: gold;
+    color: black;
+}
